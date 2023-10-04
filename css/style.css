@@ -1,0 +1,143 @@
+body, h1, h2, h3, p, ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu {
+    width:100%;
+    height: 20px;
+    background:white;
+    padding: 20px 0px 20px 40px;
+    position: fixed;
+
+}
+.logo {
+    display: block;
+    float:left;
+    margin-top:-20px;
+}
+.menu-nubank{
+    max-width: 100%;
+    float: left;
+}
+
+.menu-nubank li{
+    margin-top: -25px;
+    display: inline-block;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: inherit;
+    
+}
+
+.menu-nubank a {
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    margin-left: 33px;
+    font-family: 'Cabin', sans-serif;
+       
+}
+
+.login li {
+    display: inline-block;
+    margin-top: 28px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 70px;
+    margin-top: -25px;
+}
+
+.login {
+    float:right;
+}
+
+.login a {
+    text-decoration: none;
+    color: #820ad1;
+}
+
+/* Início da Imagem após o topo */
+.imagem {
+    background: url('../imagem/card.fundo.webp') no-repeat center center;
+    background-size: cover;
+    height: 745px;
+
+}
+
+.imagem h1 {
+    padding: 250px 0 0 0;
+    margin-bottom: 10px;
+    font-family: 'Cabin', sans-serif;
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 150px;
+    
+    
+    
+}
+
+.imagem h2 {
+    margin: left 230px;;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: white;
+    font-size:25px ;
+    font-weight: bold;
+    margin-left: 150px
+}
+
+.form {
+    box-sizing: border-box;
+    background: white;
+    max-width: 330px;
+    width: 350px;
+    height: 300px;
+    float: right;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    margin-top: -275px;
+    margin-right: 46px;
+}
+
+.form h3 {
+    color: black;
+    font-family: Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 80px;
+    font-weight: 500;
+}
+
+.name {
+    color: #585858;
+    font-size: 13px ;
+    font-family: 'Cabin', sans-serif;
+}
+
+.bto  {
+    background: rgba(17, 17, 17, 0.1);
+    display: flex;
+    justify-content:space-between;
+    border: 0px;
+    align-items: center;
+    color: rgb(163, 158, 158);
+    width: 100% ;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.campo {
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    font-family: 'Cabin', sans-serif;
+    opacity: 20%;
+    
+}
